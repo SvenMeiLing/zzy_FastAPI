@@ -1,0 +1,19 @@
+win10+vue+nginx+FastAPI+ORM(SQLite)
+1.数据库
+    修改数据库配置 session.py
+    迁移数据库 alembic
+    初始化数据库 initial_data.py
+2.配置文件
+    修改配置文件 config.py
+3.主文件
+    修改调试模式 main.py
+
+---------------------------------------------------------------------------
+备注:
+    项目初始化的时候前端部分, 首先我们需要下载一个打包工具
+    由于npm和cnpm都报错, 于是我选择了yarn也是一款facebook出的打包工具
+    接着```npm npm install -g yarn```安装这个打包工具
+    然后```yarn install```来进行安装我们前端项目的依赖项
+    接着可以用```yarn run serve```来运行一下我们的vue项目
+    后来我依照教程```yarn run build```编译了一下我们项目所需的packet
+    得到了一个dicts的目录
